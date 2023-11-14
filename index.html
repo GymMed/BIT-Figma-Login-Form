@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Login Form</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap"
+            rel="stylesheet"
+        />
+
+        <link rel="stylesheet" href="reset.css" />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <section class="first-page">
+            <div class="image-wrapper">
+                <div class="image-wrapper__texts">
+                    <div class="image-wrapper__texts__logo">
+                        <svg
+                            width="241"
+                            height="49"
+                            viewBox="0 0 241 49"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <g
+                                id="pixelonium-logo"
+                                clip-path="url(#clip0_131_77)"
+                            >
+                                <g id="Vector">
+                                    <path
+                                        d="M51.85 23C51.85 23 51.85 9.5 61.65 9.5C65.25 9.5 65.25 9.5 65.25 9.5C65.25 9.5 65.25 23 55.35 23C51.85 23 51.85 23 51.85 23Z"
+                                        fill="#7B61FF"
+                                    />
+                                    <path
+                                        d="M61.75 36.5C51.85 36.5 51.85 23 51.85 23C51.85 23 51.85 23 55.45 23C65.25 23 65.25 36.5 65.25 36.5C65.25 36.5 65.3 36.5 61.75 36.5Z"
+                                        fill="#7B61FF"
+                                    />
+                                    <path
+                                        d="M38.4 36.5C38.4 36.5 38.4 23 48.2 23C51.8 23 51.8 23 51.8 23C51.8 23 51.8 36.5 41.9 36.5C38.4 36.5 38.4 36.5 38.4 36.5Z"
+                                        fill="#36C5F0"
+                                    />
+                                    <path
+                                        d="M41.95 9.5C51.85 9.5 51.85 23 51.85 23C51.85 23 51.85 23 48.25 23C38.45 23 38.45 9.5 38.45 9.5C38.45 9.5 38.4 9.5 41.95 9.5Z"
+                                        fill="#36C5F0"
+                                    />
+                                </g>
+                                <path
+                                    id="Vector_2"
+                                    d="M26.25 21.95C26.25 32.15 17.55 37 9.6 37C8.35 37 7.65 36.9 7.05 36.8V48C7.05 48.2 6.95 48.4 6.6 48.45L0.55 49C0.2 49.05 0.15 48.9 0.15 48.65V14.9C0.15 14.25 0.05 12.4 0 11.6C0 11.5 0 11.3 0.2 11.25C2.8 10.4 7.55 8.8 12.45 8.8C21.9 8.8 26.25 14.9 26.25 21.95ZM7.05 14.95V31.5C7.7 31.65 8.9 31.85 9.85 31.85C14.45 31.85 19.15 29.15 19.15 22.35C19.15 17 15.9 14.3 11.65 14.3C9.7 14.3 8.4 14.55 7.05 14.95Z"
+                                    fill="white"
+                                />
+                                <path
+                                    id="Vector_3"
+                                    d="M28.2 3.55C28.2 1.45 29.75 0 32.05 0C34.35 0 35.75 1.45 35.75 3.55C35.75 5.6 34.25 7.05 31.95 7.05C29.7 7.05 28.2 5.65 28.2 3.55ZM28.55 9.8C28.55 9.45 28.65 9.35 29 9.35H34.95C35.3 9.35 35.4 9.4 35.4 9.8V36C35.4 36.35 35.3 36.5 34.95 36.5H29.05C28.7 36.5 28.55 36.4 28.55 36V9.8Z"
+                                    fill="white"
+                                />
+                                <path
+                                    id="Vector_4"
+                                    d="M72.45 24.9C72.35 29.6 75.25 31.5 81.05 31.5C83.25 31.5 85.85 31.15 88.3 30.05C88.45 30 88.65 30.05 88.65 30.35V34.85C88.65 35.25 88.6 35.35 88.3 35.5C86.05 36.55 83.4 37.05 79.6 37.05C69.15 37.05 66.9 30.05 66.9 23.05C66.9 15.2 70.2 8.8 78.9 8.8C87.35 8.8 89.75 16.6 89.75 21.25C89.75 23.75 89.45 24.3 89.25 24.5C88.5 24.85 86.2 24.9 84.35 24.9H72.45ZM81.7 20.55C83.9 20.55 84.2 20.35 84.25 20.1C84.25 20.05 84.25 19.8 84.25 19.65C84.2 18.55 83.1 13.7 78.55 13.7C74.7 13.7 72.8 17.8 72.4 20.55H81.7Z"
+                                    fill="white"
+                                />
+                                <path
+                                    id="Vector_5"
+                                    d="M92.5 0.45C92.5 0.1 92.65 0 93 0H98.85C99.2 0 99.35 0.15 99.35 0.45V29.65C99.35 31.5 100.1 31.9 101.15 31.9C101.5 31.9 102 31.85 102.5 31.75C102.65 31.75 102.7 31.85 102.7 32.1V35.95C102.7 36.35 102.7 36.45 102.35 36.55C101.75 36.85 100.4 37.1 98.7 37.1C95 37.1 92.45 35.6 92.45 30.1L92.5 0.45Z"
+                                    fill="white"
+                                />
+                                <path
+                                    id="Vector_6"
+                                    d="M196.05 30.15C196.05 33.2 196.2 34.75 196.35 35.9C196.4 36.25 196.3 36.35 195.95 36.35H190.7C190.3 36.35 190.2 36.25 190.1 36C189.95 35.45 189.9 34.55 189.8 33.95C187.1 36.15 184.4 36.9 181.3 36.9C176.4 36.9 171.85 34.45 171.85 26.45V9.6C171.85 9.25 172 9.2 172.3 9.2H178.35C178.7 9.2 178.75 9.3 178.75 9.6V25.35C178.75 29.05 180.05 31.4 183.6 31.4C185.7 31.4 187.7 30.55 189.2 29.05V9.65C189.2 9.3 189.3 9.2 189.65 9.2H195.6C196 9.2 196.05 9.3 196.05 9.6V30.15Z"
+                                    fill="white"
+                                />
+                                <path
+                                    id="Vector_7"
+                                    d="M133.6 15.85C133.6 13.9 133.5 10.9 133.4 9.8C133.35 9.5 133.45 9.35 133.8 9.35H139C139.4 9.35 139.55 9.45 139.65 9.75C139.8 10.3 139.95 11.25 140.05 12.05C142.45 10 145.65 8.8 148.7 8.8C153.2 8.8 158.15 11.15 158.15 20.35V36C158.15 36.35 158 36.5 157.65 36.5H151.8C151.45 36.5 151.3 36.35 151.3 36V20.3C151.3 16.55 149.8 14.4 146.35 14.4C144.15 14.4 142.05 15.5 140.55 16.9V36.05C140.55 36.4 140.4 36.5 140.1 36.5H134.15C133.85 36.5 133.7 36.35 133.7 36V15.85H133.6Z"
+                                    fill="white"
+                                />
+                                <path
+                                    id="Vector_8"
+                                    d="M161.35 3.55C161.35 1.45 162.9 0 165.2 0C167.5 0 168.9 1.45 168.9 3.55C168.9 5.6 167.4 7.05 165.1 7.05C162.85 7.05 161.35 5.65 161.35 3.55ZM161.65 9.8C161.65 9.45 161.75 9.35 162.1 9.35H168.05C168.4 9.35 168.5 9.4 168.5 9.8V36C168.5 36.35 168.4 36.5 168.05 36.5H162.15C161.8 36.5 161.65 36.4 161.65 36V9.8Z"
+                                    fill="white"
+                                />
+                                <path
+                                    id="Vector_9"
+                                    d="M131.15 22.25C131.15 31 125.4 36.5 117.15 36.5C107.15 36.5 103.1 29.4 103.1 22.45C103.1 14.2 108.75 8.25 117.35 8.25C126.25 8.2 131.15 14.55 131.15 22.25ZM110.05 22.25C110.05 27.9 112.65 31.45 117.3 31.45C120.85 31.45 124.15 28.85 124.15 22.4C124.15 17.15 121.95 13.25 116.95 13.25C112.95 13.25 110.05 16.7 110.05 22.25Z"
+                                    fill="white"
+                                />
+                                <path
+                                    id="Vector_10"
+                                    d="M240.7 19.8V36.05C240.7 36.4 240.5 36.5 240.2 36.5H234.35C234 36.5 233.85 36.35 233.85 36V20.05C233.85 16.8 232.6 14.4 229.1 14.4C227 14.4 224.95 15.35 223.05 16.95C223.2 17.6 223.35 18.7 223.35 19.8V36C223.35 36.35 223.25 36.5 222.9 36.5H217.05C216.65 36.5 216.5 36.4 216.5 36V20.05C216.5 16.3 214.8 14.4 211.75 14.4C209.65 14.4 207.85 15.35 206 16.8V36.05C206 36.35 205.9 36.5 205.55 36.5H199.6C199.25 36.5 199.15 36.35 199.15 36V15.35C199.15 13.1 199.05 10.85 198.95 9.8C198.9 9.5 199 9.35 199.35 9.35H204.6C204.95 9.35 205.05 9.45 205.2 9.7C205.35 10.2 205.55 11.45 205.6 12.15C208.3 9.95 211.05 8.8 214.2 8.8C217.35 8.8 219.85 9.85 221.5 12.7C224.25 10.5 227.2 8.8 231.45 8.8C235.4 8.8 240.7 11.3 240.7 19.8Z"
+                                    fill="white"
+                                />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_131_77">
+                                    <rect
+                                        width="240.7"
+                                        height="49"
+                                        fill="white"
+                                    />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                    </div>
+                    <div class="image-wrapper__texts__description">
+                        We are an experience maker , we help you to have a
+                        better experience in visual communication
+                    </div>
+                </div>
+                <!-- <img
+                    src="images/doors.jpeg"
+                    alt="Doors to pixelonium"
+                    class="image-wrapper__image"
+                /> -->
+                <div class="image-wrapper__image">
+                    <div class="absolute-border"></div>
+                </div>
+            </div>
+            <div class="essentials-wrapper">
+                <form action="" class="essentials-wrapper__form">
+                    <div class="essentials-wrapper__form__texts">
+                        <div class="essentials-wrapper__form__texts__main">
+                            Sign in to Pixelonium
+                        </div>
+                        <div class="essentials-wrapper__form__texts__side">
+                            Login by Your Secure Account
+                        </div>
+                    </div>
+                    <div class="essentials-wrapper__form__social">
+                        <button class="social__google">
+                            <div class="social__google__icon">
+                                <svg
+                                    width="44"
+                                    height="43"
+                                    viewBox="0 0 44 43"
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <g id="inp/Variant10">
+                                        <path
+                                            d="M0.5 2C0.5 0.895431 1.39543 0 2.5 0H43.5V43H2.5C1.39543 43 0.5 42.1046 0.5 41V2Z"
+                                            fill="white"
+                                        />
+                                        <path
+                                            id="google"
+                                            fill-rule="evenodd"
+                                            clip-rule="evenodd"
+                                            d="M32.5214 21.7443C32.5214 20.9821 32.453 20.2491 32.326 19.5455H22.2014V23.7038H27.9869C27.7377 25.0475 26.9803 26.1861 25.8418 26.9483V29.6456H29.316C31.3487 27.7741 32.5214 25.0182 32.5214 21.7443Z"
+                                            fill="#4285F4"
+                                        />
+                                        <path
+                                            id="google_2"
+                                            fill-rule="evenodd"
+                                            clip-rule="evenodd"
+                                            d="M22.201 32.25C25.1035 32.25 27.537 31.2874 29.3156 29.6455L25.8414 26.9483C24.8788 27.5933 23.6474 27.9744 22.201 27.9744C19.4011 27.9744 17.0312 26.0834 16.1859 23.5424H12.5944V26.3277C14.3633 29.841 17.9988 32.25 22.201 32.25Z"
+                                            fill="#34A853"
+                                        />
+                                        <path
+                                            id="google_3"
+                                            fill-rule="evenodd"
+                                            clip-rule="evenodd"
+                                            d="M16.1863 23.5425C15.9713 22.8975 15.8492 22.2085 15.8492 21.4999C15.8492 20.7914 15.9713 20.1024 16.1863 19.4574V16.6722H12.5948C11.8668 18.1235 11.4514 19.7653 11.4514 21.4999C11.4514 23.2346 11.8668 24.8764 12.5948 26.3277L16.1863 23.5425Z"
+                                            fill="#FBBC05"
+                                        />
+                                        <path
+                                            id="google_4"
+                                            fill-rule="evenodd"
+                                            clip-rule="evenodd"
+                                            d="M22.201 15.0256C23.7793 15.0256 25.1964 15.568 26.3105 16.6332L29.3938 13.5499C27.5321 11.8152 25.0987 10.75 22.201 10.75C17.9988 10.75 14.3633 13.159 12.5944 16.6723L16.1859 19.4575C17.0312 16.9166 19.4011 15.0256 22.201 15.0256Z"
+                                            fill="#EA4335"
+                                        />
+                                    </g>
+                                </svg>
+                            </div>
+                            <div class="social__google__text">
+                                Sign in with Google
+                            </div>
+                        </button>
+                        <button type="button" class="social__facebook">
+                            <svg
+                                width="44"
+                                height="43"
+                                viewBox="0 0 44 43"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <g id="Variant11">
+                                    <path
+                                        id="facebook"
+                                        d="M32.75 21.5C32.75 15.5875 27.9125 10.75 22 10.75C16.0875 10.75 11.25 15.5875 11.25 21.5C11.25 26.875 15.1469 31.3094 20.2531 32.1156V24.5906H17.5656V21.5H20.2531V19.0813C20.2531 16.3937 21.8656 14.9156 24.2844 14.9156C25.4938 14.9156 26.7031 15.1844 26.7031 15.1844V17.8719H25.3594C24.0156 17.8719 23.6125 18.6781 23.6125 19.4844V21.5H26.5687L26.0312 24.5906H23.4781V32.25C28.8531 31.4438 32.75 26.875 32.75 21.5Z"
+                                        fill="#1877F2"
+                                    />
+                                </g>
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="essentials-wrapper__form__seperators">
+                        <hr class="seperators__hr" />
+                        <div class="seperators__text">Or</div>
+                        <hr class="seperators__hr" />
+                    </div>
+                    <div class="essentials-wrapper__form__login">
+                        <div class="login-wrapper">
+                            <div class="login-wrapper__icon">
+                                <svg
+                                    width="1.5rem"
+                                    height="1.5rem"
+                                    viewBox="0 0 25 25"
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <g id="at-symbol">
+                                        <path
+                                            id="Vector1"
+                                            d="M16.5 12.5C16.5 11.4391 16.0786 10.4217 15.3284 9.67158C14.5783 8.92143 13.5609 8.5 12.5 8.5C11.4391 8.5 10.4217 8.92143 9.67158 9.67158C8.92143 10.4217 8.5 11.4391 8.5 12.5C8.5 13.5609 8.92143 14.5783 9.67158 15.3284C10.4217 16.0786 11.4391 16.5 12.5 16.5C13.5609 16.5 14.5783 16.0786 15.3284 15.3284C16.0786 14.5783 16.5 13.5609 16.5 12.5ZM16.5 12.5V14C16.5 14.663 16.7634 15.2989 17.2322 15.7678C17.7011 16.2366 18.337 16.5 19 16.5C19.663 16.5 20.2989 16.2366 20.7678 15.7678C21.2366 15.2989 21.5 14.663 21.5 14V12.5C21.5 10.72 20.9722 8.97991 19.9832 7.49987C18.9943 6.01983 17.5887 4.86628 15.9442 4.18509C14.2996 3.5039 12.49 3.32567 10.7442 3.67294C8.99836 4.0202 7.39472 4.87737 6.13604 6.13604C4.87737 7.39472 4.0202 8.99836 3.67294 10.7442C3.32567 12.49 3.5039 14.2996 4.18509 15.9442C4.86628 17.5887 6.01983 18.9943 7.49987 19.9832C8.97991 20.9722 10.72 21.5 12.5 21.5C14.0802 21.5016 15.6327 21.0862 17 20.294"
+                                            stroke="#6B7280"
+                                            stroke-width="2"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                        />
+                                    </g>
+                                </svg>
+                            </div>
+                            <input
+                                type="text"
+                                class="login-wrapper__input"
+                                placeholder="Username, Email or Phone Number"
+                            />
+                        </div>
+                        <div class="forgot-password-wrapper">
+                            <div class="forgot-password-wrapper__text">
+                                Forget password?
+                            </div>
+                            <div class="forgot-password-wrapper__link">
+                                <a href="">Click here</a>
+                            </div>
+                        </div>
+                        <div class="continue-wrapper">
+                            <button
+                                type="button"
+                                class="continue-wrapper__button"
+                            >
+                                <div class="continue-wrapper__button__text">
+                                    Continue
+                                </div>
+                            </button>
+                        </div>
+                        <div class="questions-wrapper">
+                            <div class="questions-wrapper__question">
+                                Questions?&nbsp;
+                            </div>
+                            <div class="questions-wrapper__text">
+                                Email us at&nbsp;
+                                <a class="questions-wrapper__link">
+                                    support@pixelonium.com
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </body>
+</html>
